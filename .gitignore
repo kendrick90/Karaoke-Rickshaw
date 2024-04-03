@@ -1,2 +1,23 @@
-ledcontrol-master
-TDMovieOut.0.mov
+# Ignore node_modules directory
+node_modules/
+
+# Ignore logs
+logs/
+
+# Ignore built files
+dist/
+
+# Ignore environment-specific files
+.env
+
+# Ignore npm debug log
+npm-debug.log*
+
+# ignore movie files    
+*.mp4
+*.avi
+*.mkv
+*.mov
+
+# ignore backup folder
+touchdesigner/Backup/
